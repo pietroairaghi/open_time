@@ -16980,3 +16980,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.router-link-active,
+.router-link-active:hover,
+.router-link-active:focus {
+  color: var(--gray-dark) !important;
+  background-color: #f8fafc !important;
+}
+
